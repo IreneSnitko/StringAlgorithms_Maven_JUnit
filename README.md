@@ -13,3 +13,5 @@ String | algorithms and tests in Maven_JUnit
 `OnlyNumbersInString`-----> everything except the numbers
 
 `StringToArrayNumbers`----> an array of numbers less than 10
+
+`CheckingWhitespaces`-----> checking the string for extra whitespaces
