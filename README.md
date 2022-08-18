@@ -1,9 +1,9 @@
 ### StringAlgorithms_Maven_JUnit ###
 ***
 String | algorithms and tests in Maven_JUnit
-#### `src/main/java`| these algorithms accept the string and return:####
+#### `src/main/java`| these algorithms accept the string and return: ####
 
-`OnlyLetters`--------------> only letters
+`OnlyLetters`-------------> only letters
 
 `OnlyLettersAndSpaces`----> everything except the letters and single spaces
 
