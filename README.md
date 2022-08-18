@@ -8,7 +8,7 @@ String | algorithms and tests in Maven_JUnit
 
 `CorrectingNameCity`-------> the correct name of the city (with a capital letter, with 1 or 2 dashes)
 
-`OnlyLetters`--------------> only letters
+`OnlyLetters`---------------> only letters
 
 `OnlyLettersAndSpaces`----> everything except the letters and single spaces
 
