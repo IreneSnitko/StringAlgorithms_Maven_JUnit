@@ -13,7 +13,7 @@ public class OnlyNumbersAndSpacesTest {
 
     @Order(1)
     @Test
-    public void OnlyNumbersAndSpacesTestLettersSignsNumbers() {
+    public void testOnlyNumbersAndSpaces_lettersSignsNumbers() {
 
         String str = " 1 2 34%  H5@ o 67Me swe45et ho9m0e- /= 0";
 
@@ -26,7 +26,7 @@ public class OnlyNumbersAndSpacesTest {
 
     @Order(2)
     @Test
-    public void OnlyNumbersAndSpacesTestLettersSigns() {
+    public void testOnlyNumbersAndSpaces_lettersSigns() {
 
         String str = "   dshghakgyagwfygyagv%%$*%%kjgsgf    ";
 
@@ -39,7 +39,7 @@ public class OnlyNumbersAndSpacesTest {
 
     @Order(3)
     @Test
-    public void OnlyNumbersAndSpacesTestOneNumber() {
+    public void testOnlyNumbersAndSpaces_oneNumber() {
 
         String str = "   dshghakgyagwfyg1yagv%%$*%%kjgsgf    ";
 
@@ -51,7 +51,7 @@ public class OnlyNumbersAndSpacesTest {
     }
 
     @Test
-    public void OnlyNumbersAndSpacesTestStringIsEmpty() {
+    public void testOnlyNumbersAndSpaces_stringIsEmpty() {
 
         String str = "";
 
@@ -63,7 +63,7 @@ public class OnlyNumbersAndSpacesTest {
     }
 
     @Test
-    public void OnlyNumbersAndSpacesTestStringIsNull() {
+    public void testOnlyNumbersAndSpaces_stringIsNull() {
 
         String str = null;
 
@@ -75,7 +75,7 @@ public class OnlyNumbersAndSpacesTest {
     }
 
     @Test
-    public void OnlyNumbersAndSpacesTestOnlySpaces() {
+    public void testOnlyNumbersAndSpaces_onlySpaces() {
 
         String str = "         ";
 
