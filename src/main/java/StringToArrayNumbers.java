@@ -7,6 +7,7 @@ public class StringToArrayNumbers {
     */
 
     public int[] getArrayIntegersFromString(String str) {
+
         int length = 0;
 
         if (str != null) {
@@ -27,7 +28,7 @@ public class StringToArrayNumbers {
             for (int i = 0; i < str.length(); i++) {
                 if (length <= str.length() && str.charAt(i) > 47 && str.charAt(i) < 58) {
                     arr[index] = Integer.parseInt(String.valueOf(str.charAt(i)));
-                        index++;
+                    index++;
                 }
             }
         }

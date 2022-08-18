@@ -66,6 +66,7 @@ public class OnlyLettersAndSpacesTest {
     public void OnlyLettersAndSpacesTestStringIsNull() {
 
         String str = null;
+
         String expectedResult = "";
 
         String actualResult = ols.getStringToOnlyLettersAndSpaces(str);
