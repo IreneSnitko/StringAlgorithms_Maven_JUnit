@@ -4,7 +4,9 @@ String | algorithms and tests in Maven_JUnit
 
 #### `src/main/java`| these algorithms accept the string and return: ####
 
-`CheckingWhitespaces`-----> checking the string for extra whitespaces
+`CheckingWhitespaces`------> checking the string for extra whitespaces
+
+`CorrectingNameCity`-------> the correct name of the city (with a capital letter, with 1 or 2 dashes)
 
 `OnlyLetters`--------------> only letters
 
