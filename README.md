@@ -1,7 +1,9 @@
 ### StringAlgorithms_Maven_JUnit ###
 ***
 String | algorithms and tests in Maven_JUnit
-#### Algorithms | `src/main/java`: ####
-`OnlyLetters`---------->creating an algorithm, accepting the string and returns only letters
-
-
+#### `src/main/java`| these algorithms accept the string and return:####
+`OnlyLetters`-------------> only letters
+`OnlyLettersAndSpaces`----> everything except the letters and single spaces
+`OnlyNumbersAndSpaces`----> everything except the numbers and spaces
+`OnlyNumbersInString`-----> everything except the numbers
+`StringToArrayNumbers`----> an array of numbers less than 10
