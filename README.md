@@ -4,6 +4,8 @@ String | algorithms and tests in Maven_JUnit
 
 #### `src/main/java`| these algorithms accept the string and return: ####
 
+`CheckingWhitespaces`-----> checking the string for extra whitespaces
+
 `OnlyLetters`--------------> only letters
 
 `OnlyLettersAndSpaces`----> everything except the letters and single spaces
@@ -14,4 +16,4 @@ String | algorithms and tests in Maven_JUnit
 
 `StringToArrayNumbers`----> an array of numbers less than 10
 
-`CheckingWhitespaces`-----> checking the string for extra whitespaces
+
