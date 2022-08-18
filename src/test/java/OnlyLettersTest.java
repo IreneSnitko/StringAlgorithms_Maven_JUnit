@@ -13,7 +13,7 @@ public class OnlyLettersTest {
 
     @Order(1)
     @Test
-    public void OnlyLettersTestLettersSignsNumbers() {
+    public void testOnlyLetters_lettersSignsNumbers() {
 
         String str = "   dsg3-6490 &?  ighrпРРОР4362РПАj\\k{fdka[]jgJKL-734615643FB++=35   ";
 
@@ -26,7 +26,7 @@ public class OnlyLettersTest {
 
     @Order(3)
     @Test
-    public void OnlyLettersTestNumbersSigns() {
+    public void testOnlyLetters_numbersSigns() {
 
         String str = "1234567890-+=  {} []!@";
 
@@ -39,7 +39,7 @@ public class OnlyLettersTest {
 
     @Order(2)
     @Test
-    public void OnlyLettersTestNumbers() {
+    public void testOnlyLetters_numbers() {
 
         String str = "1234567890";
 
@@ -51,7 +51,7 @@ public class OnlyLettersTest {
     }
 
     @Test
-    public void OnlyLettersTestEmptyString() {
+    public void testOnlyLetters_stringIsEmpty() {
 
         String str = "";
 
@@ -63,7 +63,7 @@ public class OnlyLettersTest {
     }
 
     @Test
-    public void OnlyLettersTestSpaces() {
+    public void testOnlyLetters_spaces() {
 
         String str = "    ";
 
@@ -75,7 +75,7 @@ public class OnlyLettersTest {
     }
 
     @Test
-    public void OnlyLettersTestStringIsNull() {
+    public void testOnlyLetters_stringIsNull() {
 
         String str = null;
 

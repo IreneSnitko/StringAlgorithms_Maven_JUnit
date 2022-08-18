@@ -13,7 +13,7 @@ public class OnlyNumbersInStringTest {
 
     @Order(1)
     @Test
-    public void OnlyNumbersInStringTestLettersSignsNumbers() {
+    public void testOnlyNumbersInString_lettersSignsNumbers() {
 
         String str = "123 ?AbcdE -4567- Ray 8 9 0 11!@##$%   ";
 
@@ -26,7 +26,7 @@ public class OnlyNumbersInStringTest {
 
     @Order(2)
     @Test
-    public void OnlyNumbersInStringTestLettersSigns() {
+    public void testOnlyNumbersInString_lettersSigns() {
 
         String str = "TTT ?AbcdE -mnb- Ray s % $ stop !@##$%   ";
 
@@ -39,7 +39,7 @@ public class OnlyNumbersInStringTest {
 
     @Order(3)
     @Test
-    public void OnlyNumbersInStringTestOneNumber() {
+    public void testOnlyNumbersInString_oneNumber() {
 
         String str = "TTT ?AbcdE -mnb- Ray 1s % $ stop !@##$%   ";
 
@@ -51,7 +51,7 @@ public class OnlyNumbersInStringTest {
     }
 
     @Test
-    public void OnlyNumbersInStringTestStringIsEmpty() {
+    public void testOnlyNumbersInString_stringIsEmpty() {
 
         String str = "";
 
@@ -63,7 +63,7 @@ public class OnlyNumbersInStringTest {
     }
 
     @Test
-    public void OnlyNumbersInStringTestStringIsNull() {
+    public void testOnlyNumbersInString_stringIsNull() {
 
         String str = null;
 
@@ -75,7 +75,7 @@ public class OnlyNumbersInStringTest {
     }
 
     @Test
-    public void OnlyNumbersInStringTestSpaces() {
+    public void testOnlyNumbersInString_spaces() {
 
         String str = "  ";
 

@@ -13,7 +13,7 @@ public class StringToArrayNumbersTest {
 
     @Order(1)
     @Test
-    public void StringToArrayNumberTestOneDigitNumbers() {
+    public void testStringToArrayNumbers_oneDigitNumbers() {
 
         String str = "1,2,3,4, 5";
 
@@ -25,7 +25,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestOnlyNumbers() {
+    public void testStringToArrayNumbers_onlyNumbers() {
 
         String str = "1234567890";
 
@@ -37,7 +37,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestOnlyZero() {
+    public void testStringToArrayNumbers_onlyZero() {
 
         String str = "000";
 
@@ -49,7 +49,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestManyDigitNumbers() {
+    public void testStringToArrayNumbers_manyDigitNumbers() {
 
         String str = "100 4562  35890, 4, -95";
 
@@ -61,7 +61,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestNumbersLettersSigns() {
+    public void testStringToArrayNumbers_numbersLettersSigns() {
 
         String str = "  ab1/2  &&&[] MA3: 4? - -5    ";
 
@@ -73,7 +73,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestOnlyLettersSigns() {
+    public void testStringToArrayNumbers_onlyLettersSigns() {
 
         String str = "@#AB!,cdEFgK.lm...n";
 
@@ -85,7 +85,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestStringIsEmpty() {
+    public void testStringToArrayNumbers_stringIsEmpty() {
 
         String str = "";
 
@@ -97,7 +97,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestOnlySpaces() {
+    public void testStringToArrayNumbers_onlySpaces() {
 
         String str = "      ";
 
@@ -109,7 +109,7 @@ public class StringToArrayNumbersTest {
     }
 
     @Test
-    public void StringToArrayNumberTestNullString() {
+    public void testStringToArrayNumbers_stringIsNull() {
 
         String str = null;
 

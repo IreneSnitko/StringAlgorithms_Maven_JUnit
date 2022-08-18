@@ -13,7 +13,7 @@ public class OnlyLettersAndSpacesTest {
 
     @Order(1)
     @Test
-    public void OnlyLettersAndSpacesTestLettersSignsNumbers() {
+    public void testOnlyLettersAndSpaces_lettersSignsNumbers() {
 
         String str = "I 555like     J A V A777 {]- ";
 
@@ -26,7 +26,7 @@ public class OnlyLettersAndSpacesTest {
 
     @Order(2)
     @Test
-    public void OnlyLettersAndSpacesTestOneLetter() {
+    public void testOnlyLettersAndSpaces_oneLetter() {
 
         String str = "   !#@$%1= 9856&  ?/// 5 7 8 9 0   a-";
 
@@ -39,7 +39,7 @@ public class OnlyLettersAndSpacesTest {
 
     @Order(3)
     @Test
-    public void OnlyLettersAndSpacesTestNumbersAndSigns() {
+    public void testOnlyLettersAndSpaces_numbersAndSigns() {
 
         String str = "   \1= 2 3 4&  ?/// 5 7 8 9 0   ";
 
@@ -51,7 +51,7 @@ public class OnlyLettersAndSpacesTest {
     }
 
     @Test
-    public void OnlyLettersAndSpacesTestEmptyString() {
+    public void testOnlyLettersAndSpaces_stringIsEmpty() {
 
         String str = "";
 
@@ -63,7 +63,7 @@ public class OnlyLettersAndSpacesTest {
     }
 
     @Test
-    public void OnlyLettersAndSpacesTestStringIsNull() {
+    public void testOnlyLettersAndSpaces_stringIsNull() {
 
         String str = null;
 
