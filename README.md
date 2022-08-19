@@ -8,6 +8,8 @@ String | algorithms and tests in Maven_JUnit
 
 `CorrectingNameCity`-------> the correct name of the city (with a capital letter, with 1 or 2 dashes)
 
+`IdenticalLetters`---------> `true` if it starts and ends with the same the letter, but `false` - if otherwise
+
 `OnlyLetters`---------------> only letters
 
 `OnlyLettersAndSpaces`----> everything except the letters and single spaces
@@ -19,5 +21,3 @@ String | algorithms and tests in Maven_JUnit
 `StringBetweenLetters`----> the string betweenthe first and last given letter
 
 `StringToArrayNumbers`----> an array of numbers less than 10
-
-
