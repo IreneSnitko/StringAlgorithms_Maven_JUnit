@@ -2,9 +2,7 @@
 ***
 String | algorithms and tests in Maven_JUnit
 
-#### `src/main/java`####
-
-####These algorithms accept the string and return: ####
+#### `src/main/java` | these algorithms accept the string and return: ####
 
 `CheckingWhitespaces`------> checking the string for extra whitespaces
 
