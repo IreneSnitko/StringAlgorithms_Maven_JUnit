@@ -2,7 +2,9 @@
 ***
 String | algorithms and tests in Maven_JUnit
 
-#### `src/main/java`| these algorithms accept the string and return: ####
+#### `src/main/java`####
+
+####These algorithms accept the string and return: ####
 
 `CheckingWhitespaces`------> checking the string for extra whitespaces
 
@@ -15,6 +17,8 @@ String | algorithms and tests in Maven_JUnit
 `OnlyNumbersAndSpaces`----> everything except the numbers and spaces
 
 `OnlyNumbersInString`-----> everything except the numbers
+
+`StringBetweenLetters`----> the string betweenthe first and last given letter
 
 `StringToArrayNumbers`----> an array of numbers less than 10
 
