@@ -1,5 +1,10 @@
 public class CorrectingNameCity {
 
+    /*
+    Create an algorithm, accepting the string
+    and returns corrected the city name
+    */
+
     private String fixDash(String dash, String str) {
         final String DASH = "-";
 
