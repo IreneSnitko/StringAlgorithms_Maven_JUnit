@@ -8,7 +8,7 @@ String | algorithms and tests in Maven_JUnit
 
 `CorrectingNameCity`-------> the correct name of the city (with a capital letter, with 1 or 2 dashes)
 
-`FullNameToArray`----------> an array of these words with notes `First name:`, `Middle name:`, `Surname:`
+`FullNameToArray`----------> an array of words with notes `First name:`, `Middle name:`, `Surname:`
 
 `IdenticalLetters`---------> `true` if it starts and ends with the same the letter, but `false` - if otherwise
 
@@ -24,4 +24,4 @@ String | algorithms and tests in Maven_JUnit
 
 `StringToArrayNumbers`----> an array of numbers less than 10
 
-`StringToArrayWords`------> an array of only words from this sentence, without punctuation marks
+`StringToArrayWords`------> an array of only words from sentence, without punctuation marks
