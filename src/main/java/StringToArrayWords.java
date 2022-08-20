@@ -23,7 +23,6 @@ public class StringToArrayWords {
                             .replace(str.charAt(i), ' ');
                 }
             }
-
             str = str
                     .trim()
                     .replaceAll("\\s+", " ");
