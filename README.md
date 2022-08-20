@@ -8,6 +8,8 @@ String | algorithms and tests in Maven_JUnit
 
 `CorrectingNameCity`-------> the correct name of the city (with a capital letter, with 1 or 2 dashes)
 
+`FullNameToArray`----------> an array of these words with notes `First name:`, `Middle name:`, `Surname:`
+
 `IdenticalLetters`---------> `true` if it starts and ends with the same the letter, but `false` - if otherwise
 
 `OnlyLetters`---------------> only letters
