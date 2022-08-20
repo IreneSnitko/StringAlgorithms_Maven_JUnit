@@ -25,3 +25,5 @@ String | algorithms and tests in Maven_JUnit
 `StringToArrayNumbers`----> an array of numbers less than 10
 
 `StringToArrayWords`------> an array of only words from sentence, without punctuation marks
+
+SumCodesOfAllLetters`-----> the sum of the ASCII codes of all the english letters of this string
