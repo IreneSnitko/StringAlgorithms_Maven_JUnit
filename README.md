@@ -26,4 +26,4 @@ String | algorithms and tests in Maven_JUnit
 
 `StringToArrayWords`------> an array of only words from sentence, without punctuation marks
 
-SumCodesOfAllLetters`-----> the sum of the ASCII codes of all the english letters of this string
+`SumCodesOfAllLetters`-----> the sum of the ASCII codes of all the english letters of this string
