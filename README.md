@@ -4,6 +4,8 @@ String | algorithms and tests in Maven_JUnit
 
 #### `src/main/java` | these algorithms accept the string and return: ####
 
+`CapitalizeWords`----------> returns this sentence with all the words with a capital letter (from a sentence with words without spaces)
+
 `CheckingWhitespaces`------> checking the string for extra whitespaces
 
 `CorrectingNameCity`-------> the correct name of the city (with a capital letter, with 1 or 2 dashes)
