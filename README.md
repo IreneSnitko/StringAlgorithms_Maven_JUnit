@@ -21,3 +21,5 @@ String | algorithms and tests in Maven_JUnit
 `StringBetweenLetters`----> the string betweenthe first and last given letter
 
 `StringToArrayNumbers`----> an array of numbers less than 10
+
+`StringToArrayWords`------> an array of only words from this sentence, without punctuation marks
