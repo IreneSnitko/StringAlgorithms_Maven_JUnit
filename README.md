@@ -2,9 +2,9 @@
 ***
 String | algorithms and tests in Maven_JUnit
 
-#### `src/main/java` | these algorithms accept the string and return: ####
+#### `src/main/java` | every algorithm accepts the string and returns: ####
 
-`CapitalizeWords`-----------> returns this sentence with all the words with a capital letter (from a sentence with words without spaces)
+`CapitalizeWords`-----------> sentence with all the words with a capital letter (from a sentence with words without spaces between letters)
 
 `CheckingWhitespaces`------> checking the string for extra whitespaces
 
