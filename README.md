@@ -27,3 +27,9 @@
 > `StringToArrayWords`------> an array of only words from sentence, without punctuation marks
 
 > `SumCodesOfAllLetters`-----> the sum of the ASCII codes of all the english letters of this string
+> 
+***
+
+#### Tests for these algorithms | `src/test/java:` ####
+
+> each class has tests for one algorithm
