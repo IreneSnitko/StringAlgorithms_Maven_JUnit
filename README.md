@@ -1,6 +1,5 @@
 ## String algorithms | tests in Maven & JUnit ##
 ***
-
 #### `src/main/java` | every algorithm accepts the string and returns: ####
 
 > `CapitalizeWords`-----------> sentence with all the words with a capital letter (from a sentence with words without spaces between letters)
