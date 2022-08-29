@@ -1,4 +1,4 @@
-## String algorithms##
+## String algorithms ##
 ***
 #### `src/main/java` | every algorithm accepts the string and returns: ####
 
