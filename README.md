@@ -30,6 +30,6 @@
 > 
 ***
 
-#### Tests for these algorithms |  | Maven | JUnit | `src/test/java:` ####
+#### Tests for these algorithms | Maven | JUnit | `src/test/java:` ####
 
 > each class has tests for one algorithm
