@@ -1,4 +1,4 @@
-## String algorithms | tests in Maven & JUnit ##
+## String algorithms##
 ***
 #### `src/main/java` | every algorithm accepts the string and returns: ####
 
@@ -30,6 +30,6 @@
 > 
 ***
 
-#### Tests for these algorithms | `src/test/java:` ####
+#### Tests for these algorithms |  | Maven | JUnit | `src/test/java:` ####
 
 > each class has tests for one algorithm
